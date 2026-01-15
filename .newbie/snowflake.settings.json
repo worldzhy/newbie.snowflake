@@ -1,7 +1,7 @@
 {
   "config-service": {
     "snowflake": {
-      "connectionOptions":{
+      "connectionOptions": {
         "account": "process.env.SNOWFLAKE_ACCOUNT",
         "username": "process.env.SNOWFLAKE_USERNAME",
         "password": "process.env.SNOWFLAKE_PASSWORD",
@@ -28,10 +28,10 @@
     "SNOWFLAKE_SCHEMA": "",
     "SNOWFLAKE_WAREHOUSE": ""
   },
-  "dependencies": { 
-    "snowflake-sdk": "^1.9.1"
+  "dependencies": {
+    "snowflake-sdk": "latest"
   },
   "devDependencies": {
-    "@types/snowflake-sdk": "^1.6.17"
+    "@types/snowflake-sdk": "latest"
   }
 }
